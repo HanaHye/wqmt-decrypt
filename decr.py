@@ -30,4 +30,4 @@ if __name__ == "__main__":
             if file.endswith(".bundle"):
                 decrypt_and_save(os.path.join(root, file))
     print(f"\nDecryption completed. {total_bundles} in total, {success_count} successful, {error_count} failed.")
-    input("Press any key to exit ...")
+    input("Press Enter to exit ...")
